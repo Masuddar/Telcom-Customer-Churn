@@ -63,9 +63,6 @@ The dataset used is **"WA_Fn-UseC_-Telco-Customer-Churn.csv"**, which contains c
 - **TotalCharges** - Total amount charged to the customer
 - **Churn** - Whether the customer churned (Yes/No)
 
-## 📌 Screenshots
-### 🎨 Dashboard Overview
-![Dashboard Screenshot](images/Screenshot_10-3-2025_8812_telcom-customer-churn-masuddar.streamlit.app.jpeg)
 
 ## 💡 Insights
 - Customers with **higher monthly charges** tend to have a **higher churn rate**.
