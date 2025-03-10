@@ -102,7 +102,7 @@ col1, col2 = st.columns([1, 1])  # Adjust column width ratio for better alignmen
 
 # Correlation Heatmap - Fixed for Numeric Columns Only
 with col1:
-    fig, ax = plt.subplots(figsize=(7,5))  # Adjust figure size for better layout
+    fig, ax = plt.subplots(figsize=(5,4))  # Reduced figure size for better layout
     numeric_df = df.select_dtypes(include=['number'])  # Select only numeric columns
     sns.heatmap(numeric_df.corr(), annot=True, cmap="coolwarm", fmt=".2f", linewidths=0.5, ax=ax)
     ax.set_title("Correlation Heatmap", fontsize=12)
